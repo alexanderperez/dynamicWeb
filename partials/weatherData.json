@@ -1,0 +1,14 @@
+var weather = {
+	"name" : "New York",
+	"coord" : "-74.01, 40.71",
+	"country" : "US",
+	"sunrise" : "2016-09-14T10:36:43", 
+	"sunset" : "2016-09-14T23:04:59",
+	"temperatureValue" : "30.65C",
+	"humidityValue" : "70%",
+	"pressureValue" : "1019hPa",
+	"speedValue" : "3.87MPH",
+	"directionValue" : "WSW",
+	"clouds" : "scattered clouds",
+	"precipitation" : "no"
+};

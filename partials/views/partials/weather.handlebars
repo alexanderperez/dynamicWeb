@@ -1,0 +1,13 @@
+<div class="weatherWidget">
+    {{#each partials.weather.locations}}
+    <div class="location">
+        <h3>{{name}}</h3>
+        <h2>{{tempValue}}</h2> 
+        <h2>{{description}}</h2>
+        <h2>{{hiTemp}}</h2>
+        <h2>{{loTemp}}</h2>
+        <h2>{{speedValue}}</h2>
+        <h2>{{cloudCover}}</h2>
+    </div>
+    {{/each}}
+</div>
