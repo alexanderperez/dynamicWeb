@@ -49,7 +49,12 @@ router.get('/', function(req, res) {
 });
 
 router.get('/:petSlug', function(req, res) {
-   Pet.
+    Pet.findOne({slug: req.params.petSlug}, function(err, data) {
+    var pageData = {
+      pets: [data]
+    };
+    res.render('pets', pageData);
+  });
 });
 
 module.exports = router;
